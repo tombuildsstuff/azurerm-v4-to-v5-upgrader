@@ -240,6 +240,63 @@ func TestRunUpdateNonRecursiveOnlyTopLevel(t *testing.T) {
 	require.Contains(t, string(got), "enable_bgp", "non-recursive update must not descend into subdirs")
 }
 
+func TestNormalizeArgs(t *testing.T) {
+	cases := []struct {
+		name string
+		in   []string
+		want []string
+	}{
+		{"single-dash long flags become double-dash", []string{"update", "-fmt=false", "-dry-run"}, []string{"update", "--fmt=false", "--dry-run"}},
+		{"double-dash flags untouched", []string{"update", "--fmt=false"}, []string{"update", "--fmt=false"}},
+		{"single-char shorthand untouched", []string{"-h"}, []string{"-h"}},
+		{"single-char with value untouched", []string{"-f=x"}, []string{"-f=x"}},
+		{"flag value with separate arg", []string{"update", "-dir", "modules"}, []string{"update", "--dir", "modules"}},
+		{"bare dash untouched", []string{"-"}, []string{"-"}},
+		{"everything after terminator untouched", []string{"-fmt", "--", "-fmt"}, []string{"--fmt", "--", "-fmt"}},
+		{"positional args untouched", []string{"validate", "modules"}, []string{"validate", "modules"}},
+		{"empty", nil, []string{}},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			require.Equal(t, tc.want, normalizeArgs(tc.in))
+		})
+	}
+}
+
+func TestUpdateCmdAcceptsSingleDashFlags(t *testing.T) {
+	cmd := updateCmd()
+	require.NoError(t, cmd.ParseFlags(normalizeArgs([]string{"-fmt=false", "-dry-run", "-dir", "modules", "-recursive=false"})))
+
+	format, err := cmd.Flags().GetBool("fmt")
+	require.NoError(t, err)
+	require.False(t, format)
+
+	dryRun, err := cmd.Flags().GetBool("dry-run")
+	require.NoError(t, err)
+	require.True(t, dryRun)
+
+	dir, err := cmd.Flags().GetString("dir")
+	require.NoError(t, err)
+	require.Equal(t, "modules", dir)
+
+	recursive, err := cmd.Flags().GetBool("recursive")
+	require.NoError(t, err)
+	require.False(t, recursive)
+}
+
+func TestValidateCmdAcceptsSingleDashFlags(t *testing.T) {
+	cmd := validateCmd()
+	require.NoError(t, cmd.ParseFlags(normalizeArgs([]string{"-report=json", "-github-actions"})))
+
+	report, err := cmd.Flags().GetString("report")
+	require.NoError(t, err)
+	require.Equal(t, "json", report)
+
+	gha, err := cmd.Flags().GetBool("github-actions")
+	require.NoError(t, err)
+	require.True(t, gha)
+}
+
 func TestRunValidateRecursivelyDiscoversConfigs(t *testing.T) {
 	root := t.TempDir()
 	write := func(rel, body string) {

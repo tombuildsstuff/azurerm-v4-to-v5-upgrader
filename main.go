@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/spf13/cobra"
 
@@ -16,10 +17,33 @@ import (
 )
 
 func main() {
-	if err := rootCmd().Execute(); err != nil {
+	root := rootCmd()
+	root.SetArgs(normalizeArgs(os.Args[1:]))
+	if err := root.Execute(); err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		os.Exit(2)
 	}
+}
+
+// normalizeArgs rewrites Go-style single-dash long flags (-fmt, -dry-run,
+// -report=json) into the double-dash form pflag expects, so both spellings
+// work. pflag would otherwise read -fmt as the shorthand cluster -f -m -t.
+// Single-character flags and everything after a bare "--" terminator are left
+// untouched.
+func normalizeArgs(args []string) []string {
+	out := make([]string, 0, len(args))
+	for i, arg := range args {
+		if arg == "--" {
+			return append(out, args[i:]...)
+		}
+		if len(arg) > 2 && arg[0] == '-' && arg[1] != '-' {
+			if name, _, _ := strings.Cut(arg[1:], "="); len(name) > 1 {
+				arg = "-" + arg
+			}
+		}
+		out = append(out, arg)
+	}
+	return out
 }
 
 func rootCmd() *cobra.Command {

@@ -73,6 +73,9 @@ control before running without it.
 | `--fmt` | `true` | Canonically format changed files, like `terraform fmt`. Use `--fmt=false` to keep the original formatting on lines the upgrade did not change (see [Output formatting](#output-formatting)). |
 | `--report` | `text` | Report format: `text` or `json`. |
 
+Flags accept both single- and double-dash forms: `-fmt=false` and `--fmt=false`
+are equivalent.
+
 Directories named `.terraform` are always skipped.
 
 ## What it does
