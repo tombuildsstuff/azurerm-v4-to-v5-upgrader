@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_bot_channels_registration.microsoft_app_type.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_bot_channels_registration.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "microsoft_app_type is now required in v5: microsoft_app_type is required in v5; add it explicitly"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

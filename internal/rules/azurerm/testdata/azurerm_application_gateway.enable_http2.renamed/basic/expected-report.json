@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_application_gateway.enable_http2.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_application_gateway.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_http2 to http2_enabled"
+    },
+    {
+      "rule_id": "azurerm_application_gateway.ssl_profile.verify_client_cert_issuer_dn.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_application_gateway.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed verify_client_cert_issuer_dn to verify_client_certificate_issuer_dn"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

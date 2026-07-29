@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_linux_web_app.site_config.application_stack.ruby_version.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_linux_web_app.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed ruby_version (was \"2.7\"); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_linux_web_app.site_config.remote_debugging_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_linux_web_app.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "remote_debugging_version is set to \"VS2019\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

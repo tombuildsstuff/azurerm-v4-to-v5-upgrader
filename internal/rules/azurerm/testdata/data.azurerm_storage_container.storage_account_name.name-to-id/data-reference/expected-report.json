@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "data.azurerm_storage_container.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "data.azurerm_storage_container.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

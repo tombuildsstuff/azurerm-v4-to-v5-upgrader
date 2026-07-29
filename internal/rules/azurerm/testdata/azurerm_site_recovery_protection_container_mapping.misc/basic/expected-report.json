@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_site_recovery_protection_container_mapping.automatic_update.automation_account_id.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_protection_container_mapping.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "automation_account_id is now required in v5: automatic_update.automation_account_id is required in v5; add it explicitly"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_protection_container_mapping.automatic_update.enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_protection_container_mapping.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed enabled (was true); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

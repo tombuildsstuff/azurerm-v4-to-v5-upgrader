@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.request_header_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_header_action to modify_request_header"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

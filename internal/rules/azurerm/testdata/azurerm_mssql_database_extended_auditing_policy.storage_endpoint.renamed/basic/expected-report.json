@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mssql_database_extended_auditing_policy.storage_endpoint.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_mssql_database_extended_auditing_policy.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed storage_endpoint to blob_storage_endpoint"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_security_policy.security_policies.firewall.association.domain.cdn_frontdoor_domain_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_security_policy.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "cdn_frontdoor_domain_id requires manual review in v5: now validated case-sensitively in v5; confirm the resource ID's segment casing (resourceGroups, providers, etc.) is canonical"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

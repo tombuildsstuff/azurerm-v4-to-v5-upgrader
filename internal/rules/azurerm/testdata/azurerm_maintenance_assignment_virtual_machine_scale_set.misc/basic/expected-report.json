@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_maintenance_assignment_virtual_machine_scale_set.virtual_machine_scale_set_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_maintenance_assignment_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "virtual_machine_scale_set_id requires manual review in v5: virtual_machine_scale_set_id is no longer case-insensitive in v5; confirm the value's casing matches the actual resource ID exactly"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_powerbi_embedded.mode.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_powerbi_embedded.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "pinned mode to v4 default; v5 default is now Gen2"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

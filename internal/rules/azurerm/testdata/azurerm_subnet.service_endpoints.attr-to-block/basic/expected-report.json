@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_subnet.service_endpoints.attr-to-block",
+      "severity": "Changed",
+      "resource": "azurerm_subnet.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "converted service_endpoints to 2 service_endpoint block(s)"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

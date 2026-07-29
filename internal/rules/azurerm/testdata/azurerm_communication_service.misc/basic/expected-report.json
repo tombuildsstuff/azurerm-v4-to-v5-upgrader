@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_communication_service.data_location.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_communication_service.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "data_location is now required in v5: data_location is required in v5 and no longer defaults to \"United States\"; add it explicitly"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

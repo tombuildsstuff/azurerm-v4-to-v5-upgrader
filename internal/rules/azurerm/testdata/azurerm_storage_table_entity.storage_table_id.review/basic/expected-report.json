@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_table_entity.storage_table_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_table_entity.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_table_id requires manual review in v5: storage_table_id now requires a Resource Manager ID in v5; the deprecated Data Plane URL format is no longer supported and must be updated manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

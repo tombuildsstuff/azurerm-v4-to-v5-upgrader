@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cost_management_scheduled_action.email_subject.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cost_management_scheduled_action.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "email_subject requires manual review in v5: email_subject now validates a maximum length of 50 characters in v5; confirm the value fits"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "data-source.removed",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_function_app.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "the azurerm_function_app data source is removed in AzureRM v5 and cannot be auto-migrated; replace it manually"
+    },
+    {
+      "rule_id": "data-source.removed",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_postgresql_server.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "the azurerm_postgresql_server data source is removed in AzureRM v5 and cannot be auto-migrated; replace it manually"
+    }
+  ],
+  "resources_seen": 2,
+  "rules_fired": 1
+}

@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_eventgrid_system_topic.metric_arm_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed metric_arm_resource_id to metric_resource_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic.source_arm_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed source_arm_resource_id to source_resource_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

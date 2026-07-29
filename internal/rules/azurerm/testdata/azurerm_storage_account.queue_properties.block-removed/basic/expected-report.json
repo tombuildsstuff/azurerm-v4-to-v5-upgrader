@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_account.queue_properties.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_account.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "queue_properties block requires manual review in v5: queue_properties was removed from azurerm_storage_account in v5; configure queues via azurerm_storage_account_queue_properties"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

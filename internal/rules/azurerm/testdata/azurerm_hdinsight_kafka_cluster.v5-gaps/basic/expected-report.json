@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.storage_account.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.storage_account_gen2.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to user_assigned_identity_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.storage_account_gen2.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.storage_account.storage_container_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_container_id requires manual review in v5: renamed to storage_container_url and the value must be the container's Data-Plane URL (not an ARM resource ID); v5 validates this strictly, so rename the key and confirm the value"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.tls_min_version.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "tls_min_version is now required in v5: v4 supplied no default, so set it explicitly"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 5
+}

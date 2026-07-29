@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_network_watcher_flow_log.network_security_group_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_network_watcher_flow_log.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed network_security_group_id to target_resource_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

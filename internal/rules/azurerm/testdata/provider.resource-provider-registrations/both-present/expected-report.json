@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "provider.resource-provider-registrations",
+      "severity": "NeedsReview",
+      "resource": "",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed deprecated skip_provider_registration; confirm the existing resource_provider_registrations value is what you want"
+    }
+  ],
+  "resources_seen": 0,
+  "rules_fired": 1
+}

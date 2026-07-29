@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mssql_virtual_machine.auto_backup.encryption_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_virtual_machine.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed encryption_enabled (was true); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

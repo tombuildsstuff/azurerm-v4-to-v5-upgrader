@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_private_dns_ptr_record.resource_group_name.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_private_dns_ptr_record.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "resource_group_name requires manual review in v5: resource_group_name and zone_name were removed in v5 in favour of private_dns_zone_id; consolidate both into private_dns_zone_id"
+    },
+    {
+      "rule_id": "azurerm_private_dns_ptr_record.zone_name.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_private_dns_ptr_record.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "zone_name requires manual review in v5: zone_name and resource_group_name were removed in v5 in favour of private_dns_zone_id; consolidate both into private_dns_zone_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

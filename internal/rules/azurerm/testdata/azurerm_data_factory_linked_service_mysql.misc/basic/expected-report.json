@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_data_factory_linked_service_mysql.driver_version.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_data_factory_linked_service_mysql.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "pinned driver_version to v4 default; v5 default is now V2"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

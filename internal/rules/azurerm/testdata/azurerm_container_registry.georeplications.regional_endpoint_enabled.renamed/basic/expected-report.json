@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_container_registry.georeplications.regional_endpoint_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_container_registry.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed regional_endpoint_enabled to global_endpoint_routing_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

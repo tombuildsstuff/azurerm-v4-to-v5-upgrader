@@ -1,0 +1,30 @@
+{
+  "findings": [
+    {
+      "rule_id": "resource.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_app_service.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "azurerm_app_service is removed in AzureRM v5 and cannot be auto-migrated; replace it manually"
+    },
+    {
+      "rule_id": "resource.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_postgresql_server.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "azurerm_postgresql_server is removed in AzureRM v5 and cannot be auto-migrated; replace it manually"
+    },
+    {
+      "rule_id": "resource.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_static_site.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "azurerm_static_site is removed in AzureRM v5 and cannot be auto-migrated; replace it manually"
+    }
+  ],
+  "resources_seen": 3,
+  "rules_fired": 1
+}

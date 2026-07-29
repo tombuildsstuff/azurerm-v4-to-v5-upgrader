@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_datadog_monitor_sso_configuration.single_sign_on_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_datadog_monitor_sso_configuration.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed single_sign_on_enabled to single_sign_on"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

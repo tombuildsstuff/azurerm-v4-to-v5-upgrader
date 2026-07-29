@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_container_app_environment.logs_destination.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app_environment.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of logs_destination to '\"\" (streaming only; must be set to log-analytics to use log_analytics_workspace_id)'; set it explicitly to preserve v4 behavior"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

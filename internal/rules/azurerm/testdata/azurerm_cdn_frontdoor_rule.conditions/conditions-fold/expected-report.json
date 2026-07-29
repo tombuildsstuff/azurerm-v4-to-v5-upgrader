@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.behavior_on_match.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed behavior_on_match to behaviour_on_match"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.host_name.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "folded negate_condition = true into operator (\"Equal\" -\u003e \"NotEqual\") and removed negate_condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.host_name_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block host_name_condition to host_name"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.query_string_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block query_string_condition to query_string"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.query_string.negate_condition.negate-fold",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "negate_condition = true but operator is absent or not a literal string; set operator to the negated form (e.g. NotEqual) and remove negate_condition manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 5
+}

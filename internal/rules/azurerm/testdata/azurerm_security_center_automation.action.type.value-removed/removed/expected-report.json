@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_security_center_automation.action.type.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_security_center_automation.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "type is set to \"logicapp\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

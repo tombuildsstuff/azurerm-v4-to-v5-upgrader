@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_container_app.template.container.liveness_probe.termination_grace_period_seconds.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed termination_grace_period_seconds (was 10); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_container_app.template.container.startup_probe.termination_grace_period_seconds.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed termination_grace_period_seconds (was 10); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

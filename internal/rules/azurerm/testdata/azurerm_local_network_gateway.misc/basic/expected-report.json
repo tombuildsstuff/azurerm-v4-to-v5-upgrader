@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_local_network_gateway.address_space.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_local_network_gateway.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "address_space requires manual review in v5: address_space's type changed from a List to a Set in v5 (now unordered); review any index-based references to its elements"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

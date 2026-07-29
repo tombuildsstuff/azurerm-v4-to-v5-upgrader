@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "provider.resource-provider-registrations",
+      "severity": "Changed",
+      "resource": "",
+      "file": "input.tf",
+      "line": 0,
+      "message": "translated skip_provider_registration = false to resource_provider_registrations = \"legacy\""
+    }
+  ],
+  "resources_seen": 0,
+  "rules_fired": 1
+}

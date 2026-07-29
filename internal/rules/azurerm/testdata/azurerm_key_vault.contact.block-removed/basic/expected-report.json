@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_key_vault.contact.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_key_vault.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "contact block requires manual review in v5: the deprecated contact block was removed in v5 (it used a data-plane API); manage contacts via the azurerm_key_vault_certificate_contacts resource instead"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

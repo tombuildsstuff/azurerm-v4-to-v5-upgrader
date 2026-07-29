@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_data_factory_integration_runtime_self_hosted.rbac_authorization.resource_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_data_factory_integration_runtime_self_hosted.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "resource_id requires manual review in v5: rbac_authorization.resource_id now validates its value as an integration runtime resource ID (case-sensitive) in v5; confirm the value is a correctly-cased integration runtime resource ID"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

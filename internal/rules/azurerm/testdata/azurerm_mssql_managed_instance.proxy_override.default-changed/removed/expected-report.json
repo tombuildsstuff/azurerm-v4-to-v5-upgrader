@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mssql_managed_instance.minimum_tls_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_instance.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "minimum_tls_version is set to \"1.0\", which is no longer accepted in v5; choose a replacement value"
+    },
+    {
+      "rule_id": "azurerm_mssql_managed_instance.proxy_override.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_instance.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "proxy_override is set to \"Default\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

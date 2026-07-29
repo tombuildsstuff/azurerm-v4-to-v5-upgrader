@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_kubernetes_cluster_node_pool.kubelet_config.container_log_max_line.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster_node_pool.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed container_log_max_line to container_log_max_files"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster_node_pool.linux_os_config.transparent_huge_page_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster_node_pool.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed transparent_huge_page_enabled to transparent_huge_page"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

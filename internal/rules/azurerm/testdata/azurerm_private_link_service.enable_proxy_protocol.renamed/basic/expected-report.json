@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_private_link_service.enable_proxy_protocol.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_private_link_service.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_proxy_protocol to proxy_protocol_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

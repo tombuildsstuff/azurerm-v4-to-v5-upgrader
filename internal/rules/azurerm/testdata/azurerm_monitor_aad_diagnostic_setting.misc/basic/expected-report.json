@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_monitor_aad_diagnostic_setting.enabled_log.retention_policy.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_monitor_aad_diagnostic_setting.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "enabled_log.retention_policy block requires manual review in v5: the deprecated enabled_log.retention_policy block was removed in v5; manage log retention via the azurerm_storage_management_policy resource instead"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

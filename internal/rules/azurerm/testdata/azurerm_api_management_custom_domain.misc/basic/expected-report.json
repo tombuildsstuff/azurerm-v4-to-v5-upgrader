@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_api_management_custom_domain.developer_portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.gateway.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.management.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.scm.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 5
+}

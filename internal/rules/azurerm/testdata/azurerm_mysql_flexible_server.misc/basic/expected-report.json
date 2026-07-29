@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mysql_flexible_server.customer_managed_key.managed_hsm_key_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mysql_flexible_server.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "managed_hsm_key_id requires manual review in v5: in v5 the key is specified via key_vault_key_id; consolidate managed_hsm_key_id into key_vault_key_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

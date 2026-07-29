@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_dedicated_host.license_type.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_dedicated_host.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "license_type is set to \"None\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 2,
+  "rules_fired": 1
+}

@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_custom_domain.tls.minimum_tls_version.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed minimum_tls_version to minimum_version"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_custom_domain.tls.minimum_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_custom_domain.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "minimum_version is set to \"TLS10\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_policy_set_definition.management_group_id.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_policy_set_definition.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed management_group_id (was \"example-management-group-id\"); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "provider.enhanced-validation",
+      "severity": "Changed",
+      "resource": "",
+      "file": "input.tf",
+      "line": 0,
+      "message": "pinned enhanced_validation.locations/resource_providers = true to preserve v4 defaults"
+    }
+  ],
+  "resources_seen": 0,
+  "rules_fired": 1
+}

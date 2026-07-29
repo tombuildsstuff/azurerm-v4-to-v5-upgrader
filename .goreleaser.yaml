@@ -1,0 +1,58 @@
+version: 2
+
+project_name: azurerm-v4-to-v5-upgrader
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - id: upgrader
+    binary: upgrader
+    main: .
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+    flags:
+      - -trimpath
+    ldflags:
+      - -s -w
+
+archives:
+  - id: upgrader
+    ids:
+      - upgrader
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    formats:
+      - tar.gz
+    format_overrides:
+      - goos: windows
+        formats:
+          - zip
+    files:
+      - LICENSE
+      - README.md
+
+checksum:
+  name_template: "{{ .ProjectName }}_{{ .Version }}_SHA256SUMS"
+  algorithm: sha256
+
+snapshot:
+  version_template: "{{ incpatch .Version }}-dev"
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+
+release:
+  draft: false
+  prerelease: auto

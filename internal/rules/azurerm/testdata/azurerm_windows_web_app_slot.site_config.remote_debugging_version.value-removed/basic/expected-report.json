@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_windows_web_app_slot.site_config.remote_debugging_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_windows_web_app_slot.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "remote_debugging_version is set to \"VS2017\", which is no longer accepted in v5; choose a replacement value"
+    },
+    {
+      "rule_id": "azurerm_windows_web_app_slot.virtual_network_image_pull_enabled.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_windows_web_app_slot.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of virtual_network_image_pull_enabled to 'false'; set it explicitly to preserve v4 behavior"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

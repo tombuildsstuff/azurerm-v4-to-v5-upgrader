@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_kusto_eventgrid_data_connection.eventgrid_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kusto_eventgrid_data_connection.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed eventgrid_resource_id to eventgrid_event_subscription_id"
+    },
+    {
+      "rule_id": "azurerm_kusto_eventgrid_data_connection.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kusto_eventgrid_data_connection.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to managed_identity_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_key_vault_certificate_contacts.contact.block-now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_key_vault_certificate_contacts.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "the contact block is now required in v5: contact is required in v5; add at least one contact block explicitly"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

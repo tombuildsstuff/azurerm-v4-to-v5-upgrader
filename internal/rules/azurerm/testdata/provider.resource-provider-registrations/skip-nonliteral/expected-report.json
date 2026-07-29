@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "provider.resource-provider-registrations",
+      "severity": "NeedsReview",
+      "resource": "",
+      "file": "input.tf",
+      "line": 0,
+      "message": "skip_provider_registration was removed in v5; its value is not a literal true/false, so set resource_provider_registrations manually (\"none\" for true, \"legacy\" for false)"
+    }
+  ],
+  "resources_seen": 0,
+  "rules_fired": 1
+}

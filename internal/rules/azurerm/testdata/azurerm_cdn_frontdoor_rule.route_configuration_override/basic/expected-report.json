@@ -1,0 +1,54 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.cache_behavior.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed cache_behavior to behaviour"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.cache_duration.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed cache_duration to duration"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.caching.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "moved behaviour, duration, compression_enabled, query_string_behaviour into caching block"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.origin_group.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "moved cdn_frontdoor_origin_group_id, forwarding_protocol into origin_group block"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.query_string_caching_behavior.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed query_string_caching_behavior to query_string_behaviour"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block route_configuration_override_action to route_configuration_override"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 6
+}

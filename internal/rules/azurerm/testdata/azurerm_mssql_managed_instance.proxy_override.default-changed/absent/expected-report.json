@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mssql_managed_instance.proxy_override.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_instance.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of proxy_override to 'Redirect'; set it explicitly to preserve v4 behavior"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

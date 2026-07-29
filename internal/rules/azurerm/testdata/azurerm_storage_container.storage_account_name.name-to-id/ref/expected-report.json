@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_container.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "azurerm_storage_container.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    }
+  ],
+  "resources_seen": 2,
+  "rules_fired": 2
+}

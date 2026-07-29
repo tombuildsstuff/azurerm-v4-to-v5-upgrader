@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_lb_nat_rule.enable_floating_ip.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_lb_nat_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_floating_ip to floating_ip_enabled"
+    },
+    {
+      "rule_id": "azurerm_lb_nat_rule.enable_tcp_reset.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_lb_nat_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_tcp_reset to tcp_reset_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

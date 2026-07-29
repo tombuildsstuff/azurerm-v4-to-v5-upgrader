@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_servicebus_namespace.minimum_tls_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_servicebus_namespace.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "minimum_tls_version is set to \"1.0\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

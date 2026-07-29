@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "provider.resource-provider-registrations",
+      "severity": "Note",
+      "resource": "",
+      "file": "input.tf",
+      "line": 0,
+      "message": "pinned resource_provider_registrations = \"legacy\" (the v5 default changed to \"none\"; \"legacy\" preserves v4 behavior)"
+    }
+  ],
+  "resources_seen": 0,
+  "rules_fired": 1
+}

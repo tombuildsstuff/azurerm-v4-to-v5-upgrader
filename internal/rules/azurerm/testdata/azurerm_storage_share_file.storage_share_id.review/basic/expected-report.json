@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_share_file.storage_share_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_share_file.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_share_id requires manual review in v5: storage_share_id was replaced by storage_share_url in v5; this is an id-to-url change and must be updated manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

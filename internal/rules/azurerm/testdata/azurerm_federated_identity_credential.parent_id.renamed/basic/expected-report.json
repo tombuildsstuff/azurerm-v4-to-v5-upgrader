@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_federated_identity_credential.parent_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_federated_identity_credential.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed parent_id to user_assigned_identity_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

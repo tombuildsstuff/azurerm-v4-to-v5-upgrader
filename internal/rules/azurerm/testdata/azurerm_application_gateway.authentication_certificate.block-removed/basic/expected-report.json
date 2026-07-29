@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_application_gateway.authentication_certificate.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_application_gateway.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "authentication_certificate block requires manual review in v5: removed in v5; migrate to trusted_root_certificate / trusted_root_certificate_names"
+    },
+    {
+      "rule_id": "azurerm_application_gateway.backend_http_settings.authentication_certificate.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_application_gateway.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "backend_http_settings.authentication_certificate block requires manual review in v5: removed in v5; migrate to trusted_root_certificate_names on the backend_http_settings"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

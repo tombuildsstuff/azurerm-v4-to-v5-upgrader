@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mssql_server_security_alert_policy.email_account_admins.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_mssql_server_security_alert_policy.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed email_account_admins to email_account_admins_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

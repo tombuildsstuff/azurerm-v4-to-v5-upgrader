@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "data.azurerm_storage_table_entity.storage_table_id.review",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_storage_table_entity.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_table_id requires manual review in v5: v5 no longer accepts the legacy Data-Plane URL form; supply the management-plane storage table resource ID"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

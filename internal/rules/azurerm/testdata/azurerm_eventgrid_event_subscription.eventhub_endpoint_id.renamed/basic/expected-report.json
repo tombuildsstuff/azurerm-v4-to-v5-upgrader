@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.eventhub_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.eventhub",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed eventhub_endpoint_id to eventhub_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.hybrid_connection_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.hybrid_connection",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed hybrid_connection_endpoint_id to hybrid_connection_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.service_bus_queue_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.service_bus_queue",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed service_bus_queue_endpoint_id to service_bus_queue_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.service_bus_topic_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.service_bus_topic",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed service_bus_topic_endpoint_id to service_bus_topic_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.azure_function_endpoint.function_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_eventgrid_event_subscription.azure_function",
+      "file": "input.tf",
+      "line": 0,
+      "message": "function_id requires manual review in v5: azure_function_endpoint.function_id now validates its value as an Azure Function resource ID (case-sensitive) in v5; confirm the value is a correctly-cased Function resource ID rather than a generic Azure resource ID"
+    }
+  ],
+  "resources_seen": 5,
+  "rules_fired": 5
+}

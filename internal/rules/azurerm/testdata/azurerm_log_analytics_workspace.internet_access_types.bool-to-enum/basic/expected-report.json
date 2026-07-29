@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_log_analytics_workspace.internet_ingestion_enabled.bool-to-enum",
+      "severity": "Changed",
+      "resource": "azurerm_log_analytics_workspace.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed internet_ingestion_enabled to internet_ingestion_access_type and mapped true to \"Enabled\""
+    },
+    {
+      "rule_id": "azurerm_log_analytics_workspace.internet_query_enabled.bool-to-enum",
+      "severity": "Changed",
+      "resource": "azurerm_log_analytics_workspace.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed internet_query_enabled to internet_query_access_type and mapped false to \"Disabled\""
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

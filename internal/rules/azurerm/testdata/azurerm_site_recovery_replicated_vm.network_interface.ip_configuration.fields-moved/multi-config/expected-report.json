@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "ip_configuration.name is required in v5 when a network_interface has multiple ip_configuration blocks: each ip_configuration must be named (and exactly one marked primary)"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "ip_configuration.name is required in v5 when a network_interface has multiple ip_configuration blocks: each ip_configuration must be named (and exactly one marked primary)"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

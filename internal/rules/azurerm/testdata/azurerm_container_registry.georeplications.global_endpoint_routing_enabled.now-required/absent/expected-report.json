@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_container_registry.georeplications.global_endpoint_routing_enabled.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_registry.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "global_endpoint_routing_enabled is now required in v5: each georeplications block must set it explicitly"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

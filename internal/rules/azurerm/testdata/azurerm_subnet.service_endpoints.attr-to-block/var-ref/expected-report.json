@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_subnet.service_endpoints.attr-to-block",
+      "severity": "NeedsReview",
+      "resource": "azurerm_subnet.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "service_endpoints became repeated service_endpoint blocks in v5; its value is not a literal list, so convert it to service_endpoint { service = ... } blocks manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_automation_account.encryption.key_source.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_automation_account.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed key_source (was \"Microsoft.Automation\"); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

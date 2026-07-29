@@ -1,0 +1,38 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_kubernetes_cluster.default_node_pool.kubelet_config.container_log_max_line.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed container_log_max_line to container_log_max_files"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster.default_node_pool.linux_os_config.transparent_huge_page_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed transparent_huge_page_enabled to transparent_huge_page"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster.node_provisioning_profile.block-now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_kubernetes_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "the node_provisioning_profile block is now required in v5: node_provisioning_profile is required in v5; add it explicitly"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster.oidc_issuer_enabled.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_kubernetes_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of oidc_issuer_enabled to 'true'; set it explicitly to preserve v4 behavior"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 4
+}

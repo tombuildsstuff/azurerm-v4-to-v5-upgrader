@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "data.azurerm_storage_blob.storage_account_name.review",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_storage_blob.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_account_name requires manual review in v5: removed in v5; the storage_blob data source now uses storage_container_id"
+    },
+    {
+      "rule_id": "data.azurerm_storage_blob.storage_container_name.review",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_storage_blob.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_container_name requires manual review in v5: removed in v5; the storage_blob data source now uses storage_container_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

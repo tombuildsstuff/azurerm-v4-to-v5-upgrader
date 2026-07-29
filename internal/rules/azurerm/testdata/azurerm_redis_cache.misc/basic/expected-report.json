@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_redis_cache.minimum_tls_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_redis_cache.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "minimum_tls_version is set to \"1.1\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

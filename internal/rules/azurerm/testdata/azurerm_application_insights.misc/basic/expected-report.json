@@ -1,0 +1,30 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_application_insights.daily_data_cap_notifications_disabled.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_application_insights.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "daily_data_cap_notifications_disabled requires manual review in v5: daily_data_cap_notifications_disabled was removed in v5 in favour of daily_data_cap_notifications_enabled, and the boolean meaning is inverted; update the value manually (e.g. daily_data_cap_notifications_disabled = true becomes daily_data_cap_notifications_enabled = false)"
+    },
+    {
+      "rule_id": "azurerm_application_insights.disable_ip_masking.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_application_insights.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "disable_ip_masking requires manual review in v5: disable_ip_masking was removed in v5 in favour of ip_masking_enabled, and the boolean meaning is inverted; update the value manually (e.g. disable_ip_masking = true becomes ip_masking_enabled = false)"
+    },
+    {
+      "rule_id": "azurerm_application_insights.local_authentication_disabled.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_application_insights.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "local_authentication_disabled requires manual review in v5: local_authentication_disabled was removed in v5 in favour of local_authentication_enabled, and the boolean meaning is inverted; update the value manually (e.g. local_authentication_disabled = true becomes local_authentication_enabled = false)"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 3
+}

@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_logic_app_standard.app_service_plan_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "app_service_plan_id requires manual review in v5: app_service_plan_id now validates its value as an App Service Plan ID (case-sensitive) in v5; confirm the value is a correctly-cased Resource Manager ID"
+    },
+    {
+      "rule_id": "azurerm_logic_app_standard.client_certificate_mode.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of client_certificate_mode to 'Required'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_logic_app_standard.site_config.min_tls_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "min_tls_version is set to \"1.1\", which is no longer accepted in v5; choose a replacement value"
+    },
+    {
+      "rule_id": "azurerm_logic_app_standard.site_config.public_network_access_enabled.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "public_network_access_enabled requires manual review in v5: the deprecated site_config.public_network_access_enabled (bool) was removed in v5 in favour of the top-level public_network_access (string: Enabled/Disabled); this is a type and location change, migrate manually"
+    },
+    {
+      "rule_id": "azurerm_logic_app_standard.site_config.scm_min_tls_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "scm_min_tls_version is set to \"1.0\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 5
+}

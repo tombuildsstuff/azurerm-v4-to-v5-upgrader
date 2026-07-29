@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_batch_pool.certificate.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_batch_pool.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "certificate block requires manual review in v5: the deprecated certificate block was removed in v5 as it is no longer supported by the Batch service"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_recovery_services_vault.soft_delete_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_recovery_services_vault.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed soft_delete_enabled (was true); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

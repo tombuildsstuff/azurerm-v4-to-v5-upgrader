@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_data_factory_pipeline.moniter_metrics_after_duration.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_data_factory_pipeline.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed moniter_metrics_after_duration to monitor_metrics_after_duration"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_container_registry.trust_policy_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_registry.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed trust_policy_enabled (was true); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

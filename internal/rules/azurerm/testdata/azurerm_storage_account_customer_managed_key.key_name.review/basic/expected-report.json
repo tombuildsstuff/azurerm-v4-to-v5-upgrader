@@ -1,0 +1,30 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_account_customer_managed_key.key_name.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_account_customer_managed_key.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "key_name requires manual review in v5: in v5 the key is specified via key_vault_key_id; consolidate key_name/key_vault_id/key_version into key_vault_key_id"
+    },
+    {
+      "rule_id": "azurerm_storage_account_customer_managed_key.key_vault_uri.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_account_customer_managed_key.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "key_vault_uri requires manual review in v5: in v5 the key is specified via key_vault_key_id; consolidate key_vault_uri/key_name/key_version into key_vault_key_id"
+    },
+    {
+      "rule_id": "azurerm_storage_account_customer_managed_key.key_version.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_account_customer_managed_key.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "key_version requires manual review in v5: in v5 the key is specified via key_vault_key_id; consolidate key_name/key_vault_id/key_version into key_vault_key_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 3
+}

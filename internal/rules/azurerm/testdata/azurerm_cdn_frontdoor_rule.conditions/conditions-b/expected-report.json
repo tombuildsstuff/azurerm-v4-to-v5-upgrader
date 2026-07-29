@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.behavior_on_match.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed behavior_on_match to behaviour_on_match"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block remote_address_condition to remote_address"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.socket_address_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block socket_address_condition to socket_address"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.socket_address.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 5
+}

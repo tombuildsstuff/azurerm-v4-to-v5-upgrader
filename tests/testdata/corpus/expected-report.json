@@ -1,0 +1,1406 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.developer_portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.management.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.proxy.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.scm.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.protocols.enable_http2.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_http2 to http2_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_backend_ssl30.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_backend_ssl30 to backend_ssl30_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_backend_tls10.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_backend_tls10 to backend_tls10_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_backend_tls11.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_backend_tls11 to backend_tls11_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_frontend_ssl30.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_frontend_ssl30 to frontend_ssl30_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_frontend_tls10.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_frontend_tls10 to frontend_tls10_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_frontend_tls11.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed enable_frontend_tls11 to frontend_tls11_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.developer_portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.gateway.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.management.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management_custom_domain.scm.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management_custom_domain.example",
+      "file": "modules/platform/apim.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_application_gateway.enable_http2.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_application_gateway.example",
+      "file": "modules/platform/gateway.tf",
+      "line": 0,
+      "message": "renamed enable_http2 to http2_enabled"
+    },
+    {
+      "rule_id": "azurerm_application_gateway.ssl_profile.verify_client_cert_issuer_dn.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_application_gateway.example",
+      "file": "modules/platform/gateway.tf",
+      "line": 0,
+      "message": "renamed verify_client_cert_issuer_dn to verify_client_certificate_issuer_dn"
+    },
+    {
+      "rule_id": "azurerm_bot_channel_ms_teams.enable_calling.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_bot_channel_ms_teams.example",
+      "file": "modules/appservices/main.tf",
+      "line": 0,
+      "message": "renamed enable_calling to calling_enabled"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_custom_domain.tls.minimum_tls_version.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_custom_domain.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed minimum_tls_version to minimum_version"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.request_header_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block request_header_action to modify_request_header"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.response_header_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block response_header_action to modify_response_header"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.cache_behavior.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed cache_behavior to behaviour"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.cache_duration.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed cache_duration to duration"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.caching.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "moved behaviour, duration, compression_enabled, query_string_behaviour into caching block"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.origin_group.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "moved cdn_frontdoor_origin_group_id, forwarding_protocol into origin_group block"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override.query_string_caching_behavior.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed query_string_caching_behavior to query_string_behaviour"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.route_configuration_override_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block route_configuration_override_action to route_configuration_override"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.url_redirect_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block url_redirect_action to url_redirect"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.url_rewrite_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block url_rewrite_action to url_rewrite"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.behavior_on_match.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed behavior_on_match to behaviour_on_match"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.client_port_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block client_port_condition to client_port"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.cookies_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block cookies_condition to request_cookies"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.host_name.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "folded negate_condition = true into operator (\"Equal\" -\u003e \"NotEqual\") and removed negate_condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.host_name_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block host_name_condition to host_name"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.http_version_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block http_version_condition to http_version"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.is_device_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block is_device_condition to device_type"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.post_args_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block post_args_condition to post_argument"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.query_string_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block query_string_condition to query_string"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block remote_address_condition to remote_address"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_body_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block request_body_condition to request_body"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_header_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block request_header_condition to request_header"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_method_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block request_method_condition to request_method"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_scheme_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block request_scheme_condition to request_scheme"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_uri_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block request_uri_condition to request_url"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.server_port_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block server_port_condition to server_port"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.socket_address_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block socket_address_condition to socket_address"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.ssl_protocol_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block ssl_protocol_condition to ssl_protocol"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.url_file_extension_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block url_file_extension_condition to request_file_extension"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.url_filename_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block url_filename_condition to request_filename"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.url_path_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed block url_path_condition to request_path"
+    },
+    {
+      "rule_id": "azurerm_container_registry.georeplications.regional_endpoint_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_container_registry.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "renamed regional_endpoint_enabled to global_endpoint_routing_enabled"
+    },
+    {
+      "rule_id": "azurerm_data_factory_linked_service_azure_databricks.msi_work_space_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_data_factory_linked_service_azure_databricks.example",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "renamed msi_work_space_resource_id to msi_workspace_id"
+    },
+    {
+      "rule_id": "azurerm_data_factory_pipeline.moniter_metrics_after_duration.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_data_factory_pipeline.example",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "renamed moniter_metrics_after_duration to monitor_metrics_after_duration"
+    },
+    {
+      "rule_id": "azurerm_datadog_monitor_sso_configuration.single_sign_on_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_datadog_monitor_sso_configuration.example",
+      "file": "modules/appservices/main.tf",
+      "line": 0,
+      "message": "renamed single_sign_on_enabled to single_sign_on"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.eventhub_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.eventhub",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed eventhub_endpoint_id to eventhub_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.hybrid_connection_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.hybrid_connection",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed hybrid_connection_endpoint_id to hybrid_connection_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.service_bus_queue_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.service_bus_queue",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed service_bus_queue_endpoint_id to service_bus_queue_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.service_bus_topic_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_event_subscription.service_bus_topic",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed service_bus_topic_endpoint_id to service_bus_topic_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic.source_arm_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic.example",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed source_arm_resource_id to source_resource_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic_event_subscription.eventhub_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic_event_subscription.eventhub",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed eventhub_endpoint_id to eventhub_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic_event_subscription.hybrid_connection_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic_event_subscription.hybrid_connection",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed hybrid_connection_endpoint_id to hybrid_connection_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic_event_subscription.service_bus_queue_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic_event_subscription.service_bus_queue",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed service_bus_queue_endpoint_id to service_bus_queue_id"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic_event_subscription.service_bus_topic_endpoint_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_eventgrid_system_topic_event_subscription.service_bus_topic",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "renamed service_bus_topic_endpoint_id to service_bus_topic_id"
+    },
+    {
+      "rule_id": "azurerm_express_route_connection.enable_internet_security.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_express_route_connection.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "renamed enable_internet_security to internet_security_enabled"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_hadoop_cluster.storage_account_gen2.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_hadoop_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to user_assigned_identity_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_hadoop_cluster.storage_account_gen2.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_hadoop_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_hbase_cluster.storage_account_gen2.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_hbase_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to user_assigned_identity_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_hbase_cluster.storage_account_gen2.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_hbase_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_interactive_query_cluster.storage_account_gen2.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_interactive_query_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to user_assigned_identity_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_interactive_query_cluster.storage_account_gen2.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_interactive_query_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.storage_account_gen2.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to user_assigned_identity_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_kafka_cluster.storage_account_gen2.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_kafka_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_spark_cluster.storage_account_gen2.managed_identity_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_spark_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed managed_identity_resource_id to user_assigned_identity_id"
+    },
+    {
+      "rule_id": "azurerm_hdinsight_spark_cluster.storage_account_gen2.storage_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_hdinsight_spark_cluster.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "renamed storage_resource_id to storage_account_id"
+    },
+    {
+      "rule_id": "azurerm_key_vault.enable_rbac_authorization.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_key_vault.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_rbac_authorization to rbac_authorization_enabled"
+    },
+    {
+      "rule_id": "azurerm_key_vault.enable_rbac_authorization.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_key_vault.example",
+      "file": "modules/platform/keyvault.tf",
+      "line": 0,
+      "message": "renamed enable_rbac_authorization to rbac_authorization_enabled"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster.default_node_pool.kubelet_config.container_log_max_line.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster.example",
+      "file": "modules/platform/aks.tf",
+      "line": 0,
+      "message": "renamed container_log_max_line to container_log_max_files"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster.default_node_pool.linux_os_config.transparent_huge_page_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster.example",
+      "file": "modules/platform/aks.tf",
+      "line": 0,
+      "message": "renamed transparent_huge_page_enabled to transparent_huge_page"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster_node_pool.kubelet_config.container_log_max_line.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster_node_pool.example",
+      "file": "modules/platform/aks.tf",
+      "line": 0,
+      "message": "renamed container_log_max_line to container_log_max_files"
+    },
+    {
+      "rule_id": "azurerm_kubernetes_cluster_node_pool.linux_os_config.transparent_huge_page_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kubernetes_cluster_node_pool.example",
+      "file": "modules/platform/aks.tf",
+      "line": 0,
+      "message": "renamed transparent_huge_page_enabled to transparent_huge_page"
+    },
+    {
+      "rule_id": "azurerm_kusto_attached_database_configuration.cluster_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kusto_attached_database_configuration.example",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "renamed cluster_resource_id to cluster_id"
+    },
+    {
+      "rule_id": "azurerm_lb_nat_rule.enable_floating_ip.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_lb_nat_rule.example",
+      "file": "modules/loadbalancer/main.tf",
+      "line": 0,
+      "message": "renamed enable_floating_ip to floating_ip_enabled"
+    },
+    {
+      "rule_id": "azurerm_lb_nat_rule.enable_tcp_reset.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_lb_nat_rule.example",
+      "file": "modules/loadbalancer/main.tf",
+      "line": 0,
+      "message": "renamed enable_tcp_reset to tcp_reset_enabled"
+    },
+    {
+      "rule_id": "azurerm_lb_outbound_rule.enable_tcp_reset.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_lb_outbound_rule.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "renamed enable_tcp_reset to tcp_reset_enabled"
+    },
+    {
+      "rule_id": "azurerm_linux_virtual_machine_scale_set.data_disk.ultra_ssd_disk_iops_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_linux_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_iops_read_write to disk_iops_read_write"
+    },
+    {
+      "rule_id": "azurerm_linux_virtual_machine_scale_set.data_disk.ultra_ssd_disk_mbps_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_linux_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_mbps_read_write to disk_mbps_read_write"
+    },
+    {
+      "rule_id": "azurerm_linux_virtual_machine_scale_set.network_interface.enable_accelerated_networking.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_linux_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_accelerated_networking to accelerated_networking_enabled"
+    },
+    {
+      "rule_id": "azurerm_linux_virtual_machine_scale_set.network_interface.enable_ip_forwarding.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_linux_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_ip_forwarding to ip_forwarding_enabled"
+    },
+    {
+      "rule_id": "azurerm_log_analytics_linked_storage_account.workspace_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_log_analytics_linked_storage_account.example",
+      "file": "modules/platform/monitoring.tf",
+      "line": 0,
+      "message": "renamed workspace_resource_id to workspace_id"
+    },
+    {
+      "rule_id": "azurerm_log_analytics_workspace.internet_ingestion_enabled.bool-to-enum",
+      "severity": "Changed",
+      "resource": "azurerm_log_analytics_workspace.example",
+      "file": "modules/platform/monitoring.tf",
+      "line": 0,
+      "message": "renamed internet_ingestion_enabled to internet_ingestion_access_type and mapped true to \"Enabled\""
+    },
+    {
+      "rule_id": "azurerm_log_analytics_workspace.internet_query_enabled.bool-to-enum",
+      "severity": "Changed",
+      "resource": "azurerm_log_analytics_workspace.example",
+      "file": "modules/platform/monitoring.tf",
+      "line": 0,
+      "message": "renamed internet_query_enabled to internet_query_access_type and mapped false to \"Disabled\""
+    },
+    {
+      "rule_id": "azurerm_mssql_database_extended_auditing_policy.storage_endpoint.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_mssql_database_extended_auditing_policy.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "renamed storage_endpoint to blob_storage_endpoint"
+    },
+    {
+      "rule_id": "azurerm_mssql_server_extended_auditing_policy.storage_endpoint.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_mssql_server_extended_auditing_policy.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "renamed storage_endpoint to blob_storage_endpoint"
+    },
+    {
+      "rule_id": "azurerm_mssql_server_security_alert_policy.email_account_admins.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_mssql_server_security_alert_policy.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "renamed email_account_admins to email_account_admins_enabled"
+    },
+    {
+      "rule_id": "azurerm_netapp_volume.export_policy_rule.protocols_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_netapp_volume.example",
+      "file": "modules/platform/netapp.tf",
+      "line": 0,
+      "message": "renamed protocols_enabled to protocol"
+    },
+    {
+      "rule_id": "azurerm_network_watcher_flow_log.network_security_group_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_network_watcher_flow_log.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "renamed network_security_group_id to target_resource_id"
+    },
+    {
+      "rule_id": "azurerm_orchestrated_virtual_machine_scale_set.data_disk.ultra_ssd_disk_iops_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_orchestrated_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_iops_read_write to disk_iops_read_write"
+    },
+    {
+      "rule_id": "azurerm_orchestrated_virtual_machine_scale_set.data_disk.ultra_ssd_disk_mbps_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_orchestrated_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_mbps_read_write to disk_mbps_read_write"
+    },
+    {
+      "rule_id": "azurerm_orchestrated_virtual_machine_scale_set.network_interface.enable_accelerated_networking.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_orchestrated_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_accelerated_networking to accelerated_networking_enabled"
+    },
+    {
+      "rule_id": "azurerm_orchestrated_virtual_machine_scale_set.network_interface.enable_ip_forwarding.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_orchestrated_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_ip_forwarding to ip_forwarding_enabled"
+    },
+    {
+      "rule_id": "azurerm_orchestrated_virtual_machine_scale_set.os_profile.windows_configuration.enable_automatic_updates.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_orchestrated_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_automatic_updates to automatic_updates_enabled"
+    },
+    {
+      "rule_id": "azurerm_private_link_service.enable_proxy_protocol.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_private_link_service.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "renamed enable_proxy_protocol to proxy_protocol_enabled"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "moved target_static_ip, target_subnet_name, recovery_public_ip_address_id into ip_configuration block"
+    },
+    {
+      "rule_id": "azurerm_storage_container.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "azurerm_storage_container.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "azurerm_storage_queue.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "azurerm_storage_queue.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "azurerm_storage_share.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "azurerm_storage_share.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "azurerm_storage_table.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "azurerm_storage_table.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "azurerm_subnet.service_endpoints.attr-to-block",
+      "severity": "Changed",
+      "resource": "azurerm_subnet.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "converted service_endpoints to 2 service_endpoint block(s)"
+    },
+    {
+      "rule_id": "azurerm_virtual_network.subnet.service_endpoints.attr-to-block",
+      "severity": "Changed",
+      "resource": "azurerm_virtual_network.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "converted service_endpoints to 1 service_endpoint block(s)"
+    },
+    {
+      "rule_id": "azurerm_virtual_network_gateway.enable_bgp.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_virtual_network_gateway.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "renamed enable_bgp to bgp_enabled"
+    },
+    {
+      "rule_id": "azurerm_virtual_network_gateway_connection.enable_bgp.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_virtual_network_gateway_connection.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "renamed enable_bgp to bgp_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine.enable_automatic_updates.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_automatic_updates to automatic_updates_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.data_disk.ultra_ssd_disk_iops_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_iops_read_write to disk_iops_read_write"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.data_disk.ultra_ssd_disk_mbps_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_mbps_read_write to disk_mbps_read_write"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.enable_automatic_updates.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_automatic_updates to automatic_updates_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.network_interface.enable_accelerated_networking.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_accelerated_networking to accelerated_networking_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.network_interface.enable_ip_forwarding.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "renamed enable_ip_forwarding to ip_forwarding_enabled"
+    },
+    {
+      "rule_id": "data.azurerm_storage_container.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "data.azurerm_storage_container.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "data.azurerm_storage_queue.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "data.azurerm_storage_queue.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "data.azurerm_storage_share.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "data.azurerm_storage_share.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "data.azurerm_storage_table.storage_account_name.name-to-id",
+      "severity": "Changed",
+      "resource": "data.azurerm_storage_table.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "renamed storage_account_name to storage_account_id and rewrote its value from .name to .id"
+    },
+    {
+      "rule_id": "provider.version-pin",
+      "severity": "Changed",
+      "resource": "",
+      "file": "main.tf",
+      "line": 1,
+      "message": "pinned azurerm provider to =5.0.0"
+    },
+    {
+      "rule_id": "azurerm_data_factory_linked_service_mysql.driver_version.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_data_factory_linked_service_mysql.example",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "pinned driver_version to v4 default; v5 default is now V2"
+    },
+    {
+      "rule_id": "azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack.plan_id.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "pinned plan_id to v4 default; v5 default is now panw-cngfw-payg"
+    },
+    {
+      "rule_id": "azurerm_palo_alto_next_generation_firewall_virtual_hub_panorama.plan_id.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_palo_alto_next_generation_firewall_virtual_hub_panorama.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "pinned plan_id to v4 default; v5 default is now panw-cngfw-payg"
+    },
+    {
+      "rule_id": "azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.plan_id.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "pinned plan_id to v4 default; v5 default is now panw-cngfw-payg"
+    },
+    {
+      "rule_id": "azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.plan_id.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "pinned plan_id to v4 default; v5 default is now panw-cngfw-payg"
+    },
+    {
+      "rule_id": "azurerm_powerbi_embedded.mode.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_powerbi_embedded.example",
+      "file": "modules/appservices/main.tf",
+      "line": 0,
+      "message": "pinned mode to v4 default; v5 default is now Gen2"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "modules/appservices/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.datalake",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "modules/hdinsight/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "modules/platform/monitoring.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.staging",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_storage_account.allow_nested_items_to_be_public.default-changed",
+      "severity": "Note",
+      "resource": "azurerm_storage_account.example",
+      "file": "modules/webapps/main.tf",
+      "line": 0,
+      "message": "pinned allow_nested_items_to_be_public to v4 default; v5 default is now false"
+    },
+    {
+      "rule_id": "azurerm_automation_account.encryption.key_source.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_automation_account.example",
+      "file": "modules/platform/automation.tf",
+      "line": 0,
+      "message": "removed key_source (was \"Microsoft.Keyvault\"); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_security_policy.security_policies.firewall.association.domain.cdn_frontdoor_domain_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_security_policy.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "cdn_frontdoor_domain_id requires manual review in v5: now validated case-sensitively in v5; confirm the resource ID's segment casing (resourceGroups, providers, etc.) is canonical"
+    },
+    {
+      "rule_id": "azurerm_container_app.template.container.liveness_probe.termination_grace_period_seconds.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed termination_grace_period_seconds (was 10); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_container_app.template.container.startup_probe.termination_grace_period_seconds.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed termination_grace_period_seconds (was 10); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_container_app_environment.logs_destination.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app_environment.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of logs_destination to '\"\" (streaming only; must be set to log-analytics to use log_analytics_workspace_id)'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_container_app_job.template.container.liveness_probe.termination_grace_period_seconds.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app_job.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed termination_grace_period_seconds (was 10); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_container_app_job.template.container.startup_probe.termination_grace_period_seconds.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_app_job.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed termination_grace_period_seconds (was 10); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_container_registry.trust_policy_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_container_registry.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed trust_policy_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_cost_management_scheduled_action.email_subject.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cost_management_scheduled_action.example",
+      "file": "modules/platform/costmanagement.tf",
+      "line": 0,
+      "message": "email_subject requires manual review in v5: email_subject now validates a maximum length of 50 characters in v5; confirm the value fits"
+    },
+    {
+      "rule_id": "azurerm_data_factory_integration_runtime_self_hosted.rbac_authorization.resource_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_data_factory_integration_runtime_self_hosted.example",
+      "file": "modules/dataplatform/main.tf",
+      "line": 0,
+      "message": "resource_id requires manual review in v5: rbac_authorization.resource_id now validates its value as an integration runtime resource ID (case-sensitive) in v5; confirm the value is a correctly-cased integration runtime resource ID"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_event_subscription.azure_function_endpoint.function_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_eventgrid_event_subscription.azure_function",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "function_id requires manual review in v5: azure_function_endpoint.function_id now validates its value as an Azure Function resource ID (case-sensitive) in v5; confirm the value is a correctly-cased Function resource ID rather than a generic Azure resource ID"
+    },
+    {
+      "rule_id": "azurerm_eventgrid_system_topic_event_subscription.azure_function_endpoint.function_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_eventgrid_system_topic_event_subscription.azure_function",
+      "file": "modules/messaging/main.tf",
+      "line": 0,
+      "message": "function_id requires manual review in v5: azure_function_endpoint.function_id now validates its value as an Azure Function resource ID (case-sensitive) in v5; confirm the value is a correctly-cased Function resource ID rather than a generic Azure resource ID"
+    },
+    {
+      "rule_id": "azurerm_express_route_connection.private_link_fast_path_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_express_route_connection.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "removed private_link_fast_path_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_local_network_gateway.address_space.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_local_network_gateway.example",
+      "file": "modules/networking/main.tf",
+      "line": 0,
+      "message": "address_space requires manual review in v5: address_space's type changed from a List to a Set in v5 (now unordered); review any index-based references to its elements"
+    },
+    {
+      "rule_id": "azurerm_logic_app_standard.app_service_plan_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "modules/webapps/main.tf",
+      "line": 0,
+      "message": "app_service_plan_id requires manual review in v5: app_service_plan_id now validates its value as an App Service Plan ID (case-sensitive) in v5; confirm the value is a correctly-cased Resource Manager ID"
+    },
+    {
+      "rule_id": "azurerm_logic_app_standard.client_certificate_mode.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_logic_app_standard.example",
+      "file": "modules/webapps/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of client_certificate_mode to 'Required'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_maintenance_assignment_virtual_machine_scale_set.virtual_machine_scale_set_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_maintenance_assignment_virtual_machine_scale_set.example",
+      "file": "modules/compute/main.tf",
+      "line": 0,
+      "message": "virtual_machine_scale_set_id requires manual review in v5: virtual_machine_scale_set_id is no longer case-insensitive in v5; confirm the value's casing matches the actual resource ID exactly"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.immutable_backups_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "removed immutable_backups_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.monthly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of monthly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.weekly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of weekly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.yearly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of yearly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_managed_database.long_term_retention_policy.immutable_backups_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "removed immutable_backups_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_mssql_managed_database.long_term_retention_policy.monthly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of monthly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_managed_database.long_term_retention_policy.weekly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of weekly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_managed_database.long_term_retention_policy.yearly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_database.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of yearly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_managed_instance.proxy_override.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_managed_instance.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of proxy_override to 'Redirect'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_virtual_machine.auto_backup.encryption_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_virtual_machine.example",
+      "file": "modules/mssql/main.tf",
+      "line": 0,
+      "message": "removed encryption_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_nginx_deployment.diagnose_support_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_nginx_deployment.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed diagnose_support_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_nginx_deployment.managed_resource_group.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_nginx_deployment.example",
+      "file": "modules/containers/main.tf",
+      "line": 0,
+      "message": "removed managed_resource_group (was \"example-managed-rg\"); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_policy_set_definition.management_group_id.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_policy_set_definition.example",
+      "file": "modules/platform/policy.tf",
+      "line": 0,
+      "message": "removed management_group_id (was \"example-management-group-id\"); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_recovery_services_vault.soft_delete_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_recovery_services_vault.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "removed soft_delete_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_sentinel_alert_rule_fusion.name.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_sentinel_alert_rule_fusion.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "removed name (was \"example\"); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_protection_container_mapping.automatic_update.enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_protection_container_mapping.example",
+      "file": "modules/security/main.tf",
+      "line": 0,
+      "message": "removed enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_storage_table_entity.storage_table_id.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_table_entity.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "storage_table_id requires manual review in v5: storage_table_id now requires a Resource Manager ID in v5; the deprecated Data Plane URL format is no longer supported and must be updated manually"
+    },
+    {
+      "rule_id": "azurerm_windows_web_app.virtual_network_image_pull_enabled.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_windows_web_app.example",
+      "file": "modules/webapps/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of virtual_network_image_pull_enabled to 'false'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_windows_web_app_slot.virtual_network_image_pull_enabled.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_windows_web_app_slot.example",
+      "file": "modules/webapps/main.tf",
+      "line": 0,
+      "message": "v5 changes the default of virtual_network_image_pull_enabled to 'false'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "data.azurerm_storage_table_entity.storage_table_id.review",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_storage_table_entity.example",
+      "file": "modules/storage/main.tf",
+      "line": 0,
+      "message": "storage_table_id requires manual review in v5: v5 no longer accepts the legacy Data-Plane URL form; supply the management-plane storage table resource ID"
+    }
+  ],
+  "resources_seen": 220,
+  "rules_fired": 167
+}

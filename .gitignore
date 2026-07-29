@@ -1,0 +1,13 @@
+# Go
+/upgrader
+*.test
+/vendor/
+
+# goreleaser
+/dist/
+
+# scratch
+/tmp/
+
+# sdd scratch
+/.superpowers/

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_account.static_website.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_account.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "static_website block requires manual review in v5: static_website was removed from azurerm_storage_account in v5; configure via azurerm_storage_account_static_website"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

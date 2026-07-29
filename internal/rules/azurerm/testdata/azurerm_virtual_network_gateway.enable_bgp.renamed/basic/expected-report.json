@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_virtual_network_gateway.enable_bgp.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_virtual_network_gateway.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_bgp to bgp_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

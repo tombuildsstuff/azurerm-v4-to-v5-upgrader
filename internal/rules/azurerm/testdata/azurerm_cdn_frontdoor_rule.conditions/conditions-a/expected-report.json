@@ -1,0 +1,382 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.behavior_on_match.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed behavior_on_match to behaviour_on_match"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.client_port.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.client_port_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block client_port_condition to client_port"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.cookies_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block cookies_condition to request_cookies"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.device_type.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.host_name.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.host_name_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block host_name_condition to host_name"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.http_version.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.http_version_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block http_version_condition to http_version"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.is_device_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block is_device_condition to device_type"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.post_args_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block post_args_condition to post_argument"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.post_argument.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.query_string.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.query_string_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block query_string_condition to query_string"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block remote_address_condition to remote_address"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_body.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_body_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_body_condition to request_body"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_cookies.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_file_extension.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_filename.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_header.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_header_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_header_condition to request_header"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_method.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_method_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_method_condition to request_method"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_path.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_scheme.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_scheme_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_scheme_condition to request_scheme"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_uri_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_uri_condition to request_url"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_url.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.server_port.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.server_port_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block server_port_condition to server_port"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.socket_address.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.socket_address_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block socket_address_condition to socket_address"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.ssl_protocol.negate_condition.negate-fold",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed negate_condition = false (no-op in v5)"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.ssl_protocol_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block ssl_protocol_condition to ssl_protocol"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.url_file_extension_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block url_file_extension_condition to request_file_extension"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.url_filename_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block url_filename_condition to request_filename"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.url_path_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block url_path_condition to request_path"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.device_type.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.http_version.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.post_argument.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address.operator.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is set to \"Any\", which is no longer accepted in v5; choose a replacement value"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_method.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.request_scheme.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.socket_address.operator.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is set to \"Any\", which is no longer accepted in v5; choose a replacement value"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.ssl_protocol.operator.now-required",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is now required in v5: the v5 CDN FrontDoor rule schema requires an explicit operator on this condition"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 47
+}

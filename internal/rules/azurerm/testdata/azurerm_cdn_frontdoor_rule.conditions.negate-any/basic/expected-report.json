@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address.negate_condition.negate-fold",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "negate_condition = true but operator \"Any\" is removed in v5; choose a valid operator and fold the negation into it manually"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.remote_address.operator.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "operator is set to \"Any\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

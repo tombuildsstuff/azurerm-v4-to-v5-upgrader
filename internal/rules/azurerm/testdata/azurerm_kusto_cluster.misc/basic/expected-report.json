@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_kusto_cluster.language_extensions.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_kusto_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "language_extensions block requires manual review in v5: language_extensions was renamed to language_extension in v5 (identical nested schema: name/image); rename the block manually"
+    },
+    {
+      "rule_id": "azurerm_kusto_cluster.virtual_network_configuration.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_kusto_cluster.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "virtual_network_configuration block requires manual review in v5: virtual_network_configuration was removed in v5 as it is no longer supported by Azure, with no replacement"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

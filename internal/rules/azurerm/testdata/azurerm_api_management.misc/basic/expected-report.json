@@ -1,0 +1,94 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.developer_portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.management.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.portal.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.proxy.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.hostname_configuration.scm.key_vault_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed key_vault_id to key_vault_certificate_id"
+    },
+    {
+      "rule_id": "azurerm_api_management.protocols.enable_http2.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_http2 to http2_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_backend_tls10.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_backend_tls10 to backend_tls10_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_backend_tls11.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_backend_tls11 to backend_tls11_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_frontend_ssl30.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_frontend_ssl30 to frontend_ssl30_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_frontend_tls10.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_frontend_tls10 to frontend_tls10_enabled"
+    },
+    {
+      "rule_id": "azurerm_api_management.security.enable_frontend_tls11.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_frontend_tls11 to frontend_tls11_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 11
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_netapp_volume.mount_ip_addresses.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_netapp_volume.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "mount_ip_addresses requires manual review in v5: removed in v5 in favour of mount_target (a list of objects); update references to mount_target[*].ip_address"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

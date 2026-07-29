@@ -1,0 +1,62 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.automatic_os_upgrade_policy.enable_automatic_os_upgrade.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_automatic_os_upgrade to automatic_os_upgrade_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.data_disk.ultra_ssd_disk_iops_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_iops_read_write to disk_iops_read_write"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.data_disk.ultra_ssd_disk_mbps_read_write.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed ultra_ssd_disk_mbps_read_write to disk_mbps_read_write"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.enable_automatic_updates.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_automatic_updates to automatic_updates_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.network_interface.enable_accelerated_networking.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_accelerated_networking to accelerated_networking_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.network_interface.enable_ip_forwarding.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_ip_forwarding to ip_forwarding_enabled"
+    },
+    {
+      "rule_id": "azurerm_windows_virtual_machine_scale_set.automatic_os_upgrade_policy.disable_automatic_rollback.review",
+      "severity": "NeedsReview",
+      "resource": "azurerm_windows_virtual_machine_scale_set.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "disable_automatic_rollback requires manual review in v5: disable_automatic_rollback was renamed to automatic_rollback_enabled in v5 and the boolean meaning is inverted; update the value manually (e.g. disable_automatic_rollback = true becomes automatic_rollback_enabled = false)"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 7
+}

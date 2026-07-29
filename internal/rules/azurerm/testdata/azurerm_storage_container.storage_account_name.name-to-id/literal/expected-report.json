@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_storage_container.storage_account_name.name-to-id",
+      "severity": "NeedsReview",
+      "resource": "azurerm_storage_container.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "storage_account_name was renamed to storage_account_id in v5, and its value must change from a name to a resource ID; update manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

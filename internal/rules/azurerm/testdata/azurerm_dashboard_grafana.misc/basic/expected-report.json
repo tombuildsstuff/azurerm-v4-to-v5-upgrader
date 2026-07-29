@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_dashboard_grafana.grafana_major_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_dashboard_grafana.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "grafana_major_version is set to \"11\", which is no longer accepted in v5; choose a replacement value"
+    },
+    {
+      "rule_id": "azurerm_dashboard_grafana.sku.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_dashboard_grafana.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "sku is set to \"Essential\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_data_factory_linked_service_azure_blob_storage.key_vault_sas_token.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_data_factory_linked_service_azure_blob_storage.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "key_vault_sas_token block requires manual review in v5: key_vault_sas_token was renamed to sas_token_linked_key_vault_key in v5 (identical nested schema: linked_service_name/secret_name); rename the block manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

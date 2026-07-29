@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "data.azurerm_servicebus_namespace_disaster_recovery_config.namespace_name.review",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_servicebus_namespace_disaster_recovery_config.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "namespace_name requires manual review in v5: removed in v5; use namespace_id"
+    },
+    {
+      "rule_id": "data.azurerm_servicebus_namespace_disaster_recovery_config.resource_group_name.review",
+      "severity": "NeedsReview",
+      "resource": "data.azurerm_servicebus_namespace_disaster_recovery_config.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "resource_group_name requires manual review in v5: removed in v5; use namespace_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

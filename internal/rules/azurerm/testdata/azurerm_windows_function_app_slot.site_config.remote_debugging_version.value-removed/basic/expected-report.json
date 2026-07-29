@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_windows_function_app_slot.site_config.remote_debugging_version.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_windows_function_app_slot.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "remote_debugging_version is set to \"VS2017\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

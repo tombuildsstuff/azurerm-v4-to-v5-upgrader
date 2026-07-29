@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.conditions.cookies_condition.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block cookies_condition to request_cookies"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

@@ -1,0 +1,38 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "moved target_static_ip into ip_configuration block"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "Changed",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "moved target_static_ip into ip_configuration block"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "ip_configuration.name is now required in v5: must match the source VM's NIC IP configuration name"
+    },
+    {
+      "rule_id": "azurerm_site_recovery_replicated_vm.network_interface.ip_configuration.fields-moved",
+      "severity": "NeedsReview",
+      "resource": "azurerm_site_recovery_replicated_vm.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "ip_configuration.name is now required in v5: must match the source VM's NIC IP configuration name"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

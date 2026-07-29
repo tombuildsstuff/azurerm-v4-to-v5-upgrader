@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_windows_virtual_machine.enable_automatic_updates.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_windows_virtual_machine.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_automatic_updates to automatic_updates_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

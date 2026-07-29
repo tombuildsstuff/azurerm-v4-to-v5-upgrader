@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_express_route_connection.enable_internet_security.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_express_route_connection.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_internet_security to internet_security_enabled"
+    },
+    {
+      "rule_id": "azurerm_express_route_connection.private_link_fast_path_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_express_route_connection.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed private_link_fast_path_enabled (was true); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 2
+}

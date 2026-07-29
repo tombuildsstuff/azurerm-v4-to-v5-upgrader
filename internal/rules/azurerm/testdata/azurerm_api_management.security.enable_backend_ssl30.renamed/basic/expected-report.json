@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_api_management.security.enable_backend_ssl30.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_api_management.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed enable_backend_ssl30 to backend_ssl30_enabled"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

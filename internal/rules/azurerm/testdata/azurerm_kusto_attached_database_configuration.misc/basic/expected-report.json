@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_kusto_attached_database_configuration.cluster_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_kusto_attached_database_configuration.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed cluster_resource_id to cluster_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

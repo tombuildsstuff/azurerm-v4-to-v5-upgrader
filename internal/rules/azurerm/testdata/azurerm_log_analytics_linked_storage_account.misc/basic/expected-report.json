@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_log_analytics_linked_storage_account.workspace_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_log_analytics_linked_storage_account.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed workspace_resource_id to workspace_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

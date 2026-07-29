@@ -1,0 +1,38 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.immutable_backups_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed immutable_backups_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.monthly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of monthly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.weekly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of weekly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    },
+    {
+      "rule_id": "azurerm_mssql_database.long_term_retention_policy.yearly_retention.default-changed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_mssql_database.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "v5 changes the default of yearly_retention to 'PT0S'; set it explicitly to preserve v4 behavior"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 4
+}

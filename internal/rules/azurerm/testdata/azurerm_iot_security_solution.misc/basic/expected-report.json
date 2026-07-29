@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_iot_security_solution.recommendations_enabled.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_iot_security_solution.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "recommendations_enabled block requires manual review in v5: recommendations_enabled was renamed to recommendations in v5 (identical nested schema); rename the block manually"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

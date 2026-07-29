@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.request_header_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block request_header_action to modify_request_header"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.response_header_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block response_header_action to modify_response_header"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.url_redirect_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block url_redirect_action to url_redirect"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.actions.url_rewrite_action.block-renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed block url_rewrite_action to url_rewrite"
+    },
+    {
+      "rule_id": "azurerm_cdn_frontdoor_rule.behavior_on_match.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_cdn_frontdoor_rule.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed behavior_on_match to behaviour_on_match"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 5
+}

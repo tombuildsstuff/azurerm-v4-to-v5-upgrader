@@ -1,0 +1,30 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_nginx_deployment.diagnose_support_enabled.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_nginx_deployment.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed diagnose_support_enabled (was true); confirm no behavior change"
+    },
+    {
+      "rule_id": "azurerm_nginx_deployment.logging_storage_account.block-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_nginx_deployment.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "logging_storage_account block requires manual review in v5: the deprecated logging_storage_account block was removed in v5; manage diagnostics via the azurerm_monitor_diagnostic_setting resource instead"
+    },
+    {
+      "rule_id": "azurerm_nginx_deployment.managed_resource_group.removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_nginx_deployment.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "removed managed_resource_group (was \"example-managed-rg\"); confirm no behavior change"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 3
+}

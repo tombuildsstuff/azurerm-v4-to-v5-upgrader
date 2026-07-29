@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_data_factory_linked_service_azure_databricks.msi_work_space_resource_id.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_data_factory_linked_service_azure_databricks.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed msi_work_space_resource_id to msi_workspace_id"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

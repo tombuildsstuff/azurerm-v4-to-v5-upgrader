@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_spring_cloud_connection.client_type.value-removed",
+      "severity": "NeedsReview",
+      "resource": "azurerm_spring_cloud_connection.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "client_type is set to \"none\", which is no longer accepted in v5; choose a replacement value"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}

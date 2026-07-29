@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "rule_id": "azurerm_netapp_volume.export_policy_rule.protocols_enabled.renamed",
+      "severity": "Changed",
+      "resource": "azurerm_netapp_volume.example",
+      "file": "input.tf",
+      "line": 0,
+      "message": "renamed protocols_enabled to protocol"
+    }
+  ],
+  "resources_seen": 1,
+  "rules_fired": 1
+}
