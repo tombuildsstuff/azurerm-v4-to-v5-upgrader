@@ -10,11 +10,11 @@ upgrade guide) as needed for v5.0. It does this whilst preserving comments and i
 This intentionally **does not** commit these changes, so that you can easily diff them as needed and
 covers **329 breaking-changes** across Resources, Data Sources and the Provider block.
 
-Where changes can be made automatically, we'll make those changes - where they can't we'll flag them in
+Where changes can be made automatically, the tool makes them - where they can't, it flags them in
 the output for your attention. This is built both from the upgrade guide itself, and a diff of v4.81.0 ->
 v5.0.0 to confirm there's no missing breaking changes).
 
-I'd recommend upgrading to the latest version of 4.x.x prior to running this tool, but you can determine
+It's recommended to upgrade to the latest version of 4.x.x prior to running this tool, but you can determine
 if there's any pending changes to be made by running  `./azurerm-v4-to-v5-upgrader validate`. To run it
 for real, making those changes, you can run `./azurerm-v4-to-v5-upgrader upgrade`.
 
